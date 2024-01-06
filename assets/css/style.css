@@ -12,3 +12,31 @@ body {
   width: 100%;
   font-size: 16px;
 }
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+  background-color: #4666d6;
+  height: 50px;
+  width: 100%;
+}
+.header .logo {
+  height: 43px;
+  width: 45px;
+}
+.header .logo img {
+  height: 100%;
+  width: 100%;
+  border-radius: 70%;
+}
+.header .menu {
+  height: 43px;
+}
+.header .menu img {
+  height: 100%;
+}
