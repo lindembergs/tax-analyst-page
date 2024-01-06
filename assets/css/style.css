@@ -6,11 +6,15 @@
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+a {
+  color: #f9f9f9fa;
+}
 html,
 body {
   height: 100%;
   width: 100%;
   font-size: 16px;
+  background-color: #f2f3f3;
 }
 button {
   cursor: pointer;
@@ -39,4 +43,49 @@ button {
 }
 .header .menu img {
   height: 100%;
+}
+.welcome-content {
+  height: 420px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-img {
+  width: 400px;
+}
+.welcome-img img {
+  height: 100%;
+  width: 100%;
+  min-width: 250px;
+  object-fit: contain;
+}
+
+.welcome-text {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome-text .text-content {
+  width: 300px;
+  margin-bottom: 60px;
+}
+.text-content p {
+  color: #4b4a4a;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
+.text-content button {
+  width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #496bdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
 }
