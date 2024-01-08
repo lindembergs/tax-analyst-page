@@ -15,9 +15,11 @@ body {
   width: 100%;
   font-size: 16px;
   background-color: #f2f3f3;
+  scroll-behavior: smooth;
 }
 button {
   cursor: pointer;
+  margin-top: 15px;
 }
 
 .header {
@@ -149,4 +151,51 @@ h1 {
 embed {
   width: 100%;
   height: 100%;
+}
+.exp h2 {
+  text-align: center;
+  margin-block: 10px;
+  border-bottom: 4px solid #496bdb;
+}
+.exp-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.description {
+  width: 30%;
+  margin: 0 auto;
+}
+.description h3 {
+  margin-bottom: 15px;
+}
+.exp-img {
+  width: 50%;
+}
+.exp-img img {
+  width: 50%;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 1px solid rgba(70, 102, 214, 0.6);
+  box-shadow: 0 4px 6px rgba(70, 102, 214, 0.4);
+}
+.exp-img img:hover {
+  transform: scale(1.111);
+  transition: all 0.5s ease-in-out;
+}
+.exp-content p {
+  font-size: 0.9rem;
+}
+@media (max-width: 712px) {
+  .description {
+    margin-left: 130px;
+    width: 100%;
+  }
+  .exp-content p {
+    font-size: 0.8rem;
+  }
+  .exp-img img {
+    display: none;
+  }
 }
